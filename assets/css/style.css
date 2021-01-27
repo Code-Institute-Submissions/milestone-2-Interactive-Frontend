@@ -14,24 +14,12 @@
     background-color: #f4f4f4;
 }
 
-.bg-color-skills {
-    background-color: #ffffff;
-}
-
 .bg-color-work-history {
-    background-color: #9b59b6;
+    background-color: #000000;
 }
 
 .bg-color-contact {
     background-color: #fff;
-}
-
-.bg-color-conferences {
-    background-color: #f4f4f4;
-}
-
-.bg-color-groups {
-    background-color: #ffffff;
 }
 
 .ui-menu-color-home {
@@ -50,22 +38,25 @@
     background-color: #000000;
 }
 
-.ui-menu-color-interests {
-    background-color: #000000;
+.row-table {
+    display: table;
 }
 
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
 
-
-
-body {
-    font-family: Roboto, sans-serif;
+.section-heading {
+    font-family: "Exo", sans-serif;
     font-weight: 300;
-    background-color: #525252;
-    color: #555555;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    color: rgb(0, 0, 0);
 }
 
-
-/*--------------------------------------------Special Paddings/Margins/Text*/
+/* ----------------------------------------Special paddings/margins/text */
 
 h1,
 h2,
@@ -79,28 +70,32 @@ h4 {
 }
 
 .general-sub {
-    font-family: "Exo", sans-serif;
+    font-family: "Permanent-marker", permanent-marker;
     font-weight: 300;
-    color: #fafafa;
+    color: #ffffff;
 }
 
 .inline-block {
     display: inline-block;
 }
 
-
 .row-table {
     display: table;
 }
 
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
 .history-heading,
 .section-heading {
-    font-family: "Exo", sans-serif;
+    font-family: "Acme", acme;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
 }
-
 
 /*--------------------------------------------Heading*/
 
@@ -113,7 +108,7 @@ header {
 }
 
 .logo {
-    background: url("assets/images/merkmedia1.jpg");
+    background: url("../images/merkmedia1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,28 +119,37 @@ header {
 }
 
 .name {
-    font-family: "Exo", sans-serif;
+    font-family: "Righteous", righteous;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
-    color: #ffffff;
+    color: #fff;
 }
 
 .title {
-    font-family: "Roboto", sans-serif;
+    font-family: "Permanent-marker", permanent-marker;
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #ffffff;
+    color: #fff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
 
 #nav {
     margin: 0;
-}
-
-#nav li {
-    padding: 0;
 }
 
 .menuitem {
@@ -157,10 +161,9 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
     height: 120px;
 }
-
 
 .menuitem a i {
     padding-top: 22px;
@@ -180,16 +183,14 @@ header {
     letter-spacing: 2px;
 }
 
-
 /*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(255, 0, 0, 0.2);
     height: 120px;
 }
 
-
-/*--------------------------------------------Footer*/
+/* ----------------------------------------Footer */
 
 footer {
     background-color: #525252;
@@ -198,19 +199,19 @@ footer {
     margin: 0;
 }
 
-footer .cv-pdf i {
+.cv-mp4 i {
+    font-size: 18px;
     color: #fafafa;
     text-align: center;
-    font-size: 18px;
     padding-left: 5px;
-}
-
-footer .cv-pdf i:hover {
-    color: #e84610;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-mp4 i:hover {
+    color: #ff4000;
 }
 
 .social-links {
@@ -238,10 +239,10 @@ footer .cv-pdf i:hover {
 }
 
 #footer-details {
-    margin: 20px;
+    padding: 20px;
 }
 
-/*--------------------------------------------Three Reasons*/
+/* ----------------------------------------Three Reasons */
 
 .three-reasons-icon {
     font-size: 26px;
@@ -252,7 +253,7 @@ footer .cv-pdf i:hover {
     margin-bottom: 15px;
 }
 
-/*--------------------------------------------Personal Info*/
+/* ----------------------------------------Personal Info */
 
 .personal-info-item {
     margin-bottom: 20px;
@@ -263,6 +264,7 @@ footer .cv-pdf i:hover {
 .personal-info-item .key,
 .personal-info-item .value {
     padding-right: 8px;
+    display: inline-block;
 }
 
 .personal-info-item .key p,
@@ -271,7 +273,6 @@ footer .cv-pdf i:hover {
 }
 
 .personal-info-item .key {
-    display: inline-block;
     width: 30%;
     margin-right: 21px;
     padding-top: 2px;
@@ -283,16 +284,16 @@ footer .cv-pdf i:hover {
 }
 
 .personal-info-item .value {
-    display: inline-block;
     position: relative;
     width: 60%;
 }
 
-/*--------------------------------------------Skills*/
+/* ----------------------------------------Skills */
 
 .progress {
     position: relative;
     height: 25px;
+    margin-bottom: 4px;
 }
 
 .progress-type {
@@ -301,16 +302,20 @@ footer .cv-pdf i:hover {
     font-weight: 400;
     padding: 3px 30px 2px 10px;
     color: #fafafa;
-    background-color: rgba(25, 25, 25, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
-
 
 .progress-section {
     margin: 40px 20px;
 }
 
+/* ----------------------------------------Past Events and Gallery */
 
-/*--------------------------------------------Work History*/
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+    font-size: 2.50rem;
+}
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
@@ -324,41 +329,40 @@ footer .cv-pdf i:hover {
     margin: 0;
 }
 
-.timeline-item::before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: .8em;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item::after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: #fafafa;
-}
-
-.history-heading {
-    color: #fafafa;
-    margin-bottom: 50px;
-}
-
 .history-items {
     margin-bottom: 30px;
 }
 
-/*--------------------------------------------Contact*/
+.red-carpet {
+    color: white
+}
+
+.fast-furious {
+    color: white;
+}
+#gallery-photos {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0px
+}
+
+#gallery-photos-2 {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0px;
+}
+
+#gallery-photos img {
+    width: 100%;
+}
+
+#gallery-photos-2 img {
+    width: 100%;
+}
+
+/* ----------------------------------------Contact Form */
 
 .contact-heading {
     font-family: "Exo", sans-serif;
@@ -366,7 +370,6 @@ footer .cv-pdf i:hover {
     margin-top: 25px;
     margin-bottom: 20px;
 }
-
 
 .center-form {
     padding-top: 10px;
@@ -377,8 +380,8 @@ footer .cv-pdf i:hover {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color: #e84610;
     color: #fafafa;
+    background-color: #e84610;
 }
 
 /*--------------------------------------------Map*/
