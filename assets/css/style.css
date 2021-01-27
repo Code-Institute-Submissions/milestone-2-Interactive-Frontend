@@ -19,7 +19,7 @@
 }
 
 .bg-color-work-history {
-    background-color: #9b59b6;
+    background-color: #000000;
 }
 
 .bg-color-contact {
@@ -35,35 +35,35 @@
 }
 
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: #000000;
 }
 
 .ui-menu-color-resume {
-    background-color: #9b59b6;
+    background-color: #000000;
 }
 
 .ui-menu-color-contact {
-    background-color: #3498db;
+    background-color: #000000;
 }
 
 .ui-menu-color-download {
-    background-color: #d9a81d;
+    background-color: #000000;
 }
 
 
-.ui-menu-color-github {
-    background-color: #1c4a6c;
+.ui-menu-color-pricing {
+    background-color: #000000;
 }
 
 .ui-menu-color-interests {
-    background-color: #e74c3c;
+    background-color: #000000;
 }
 
 
 
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     background-color: #525252;
     color: #555555;
@@ -84,7 +84,7 @@ h4 {
 }
 
 .general-sub {
-    font-family: "Exo", sans-serif;
+    font-family: "Permanent-marker", permanent-marker;
     font-weight: 300;
     color: #fafafa;
 }
@@ -100,7 +100,7 @@ h4 {
 
 .history-heading,
 .section-heading {
-    font-family: "Exo", sans-serif;
+    font-family: "Acme", acme;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
@@ -129,7 +129,7 @@ header {
 }
 
 .name {
-    font-family: "Exo", sans-serif;
+    font-family: "Righteous", righteous;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
@@ -137,7 +137,7 @@ header {
 }
 
 .title {
-    font-family: "Roboto", sans-serif;
+    font-family: "Permanent-marker", permanent-marker;
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
@@ -189,7 +189,7 @@ header {
 /*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(255, 0, 0, 0.2);
     height: 120px;
 }
 
@@ -327,31 +327,6 @@ footer .cv-pdf i:hover {
 .timeline-item p {
     padding: 0;
     margin: 0;
-}
-
-.timeline-item::before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: .8em;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item::after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: #fafafa;
 }
 
 .history-heading {
