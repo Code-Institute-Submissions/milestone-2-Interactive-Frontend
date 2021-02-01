@@ -246,7 +246,7 @@ footer .videos-mp4 i:hover {
     margin: 20px;
 }
 
-/*--------------------------------------------Three Reasons*/
+/*--------------------------------------------Home Page*/
 
 .three-reasons-icons {
     font-size: 26px;
@@ -324,7 +324,7 @@ footer .videos-mp4 i:hover {
 }
 
 
-/*--------------------------------------------Work History*/
+/*--------------------------------------------Past Events and Gallery*/
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
@@ -345,6 +345,36 @@ footer .videos-mp4 i:hover {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+.red-carpet {
+    color: white;
+}
+
+.fast-furious {
+    color: white;
+}
+
+#gallery-photos {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0px
+}
+
+#gallery-photos-2 {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0px;
+}
+
+#gallery-photos img {
+    width: 100%;
+}
+
+#gallery-photos-2 img {
+    width: 100%;
 }
 
 /*--------------------------------------------Contact*/
