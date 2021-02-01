@@ -407,6 +407,13 @@ div#map {
     min-height: 360px;
 }
 
+/*--------------------------------------------Pricing*/
+
+.pricing-headers {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
 /*--------------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
