@@ -1,6 +1,6 @@
 <h1 align="center">Merk Media Website</h1>
 
-[View the live project here.](https://phantom82aj.github.io/milestone-one/)
+[View the live project here.]( https://phantom82aj.github.io/milestone-2-Interactive-Frontend/)
 
 This is a webpage for a car event promoter in the Southern California car scene. It has been is created to correctly function and be accessible on a range of devices, making it easy to navigate for potential clients and car clubs.
 
