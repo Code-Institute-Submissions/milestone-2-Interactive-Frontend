@@ -4,7 +4,7 @@
 
 This is a webpage for a car event promoter in the Southern California car scene. It has been is created to correctly function and be accessible on a range of devices, making it easy to navigate for potential clients and car clubs.
 
-<h2 align="center"><img src="assets/images/desktopview.png"></h2>
+<h2 align="center"><img src="assets/images/amiresponsivemilestone2.png"></h2>
 
 ## User Experience (UX)
 
@@ -15,33 +15,43 @@ This is a webpage for a car event promoter in the Southern California car scene.
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and see what services are offered to the car community.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content and contact forms.
         3. As a First Time Visitor, I want to see past events and see how they coorelate with services offered. I also want to locate their social media links to see their followings on social media to determine their popularity and following.
+        4. As a First Time Visitor, I want to interact with the website to achieve my goals and complete the task and reason for visiting the website.
 
     -   #### Returning Visitor Goals
 
         1. As a Returning Visitor, I want to collaborate and get in contact for future events.
         2. As a Returning Visitor, I want to find pricing updates and promotional offers.
+        3. As a Returning Visitor, I want to see updated information as to past events and future ones and where their locations are on a Google map.
 
     -   #### Frequent User Goals
         1. As a Frequent User, I want to check to how well the host responds to inquiries.
         2. As a Frequent User, I want to check to see if there are any new events held or services provided for.
+        3. As a Frequent User, I want to send emails on collaborations and celebrity availability and location availability.
 
 -   ### Design
     -   #### Color Scheme
         -   The main colors used are black, maroon, grey, and white.
     -   #### Typography
-        -   The Sans Serif is the main font used with Roboto as the fallback font in case for any reason the font isn't being imported into the site correctly. San-Serif is a clean font used frequently in design elements, so it is both attractive and easy to look at.
+        -   The Sans Serif is the main font used with Roboto as the fallback font in case for any reason the font isn't being imported into the site correctly. Exo and Acme were used in headings and titles due to its attractiveness and clean lines. San-Serif is a clean font used frequently in design elements, so it is both attractive and easy to look at.
     -   #### Imagery
-        -   Imagery is the key element on the entire website. The large, background logo image is designed to stand out and capture the user's eye. It also has a simple but sleek appearance.
+        -   Imagery is the key element on the entire website. The large, background logo image is designed to stand out and capture the user's eye. It also has a simple but sleek appearance. In the Gallery page past pictures and video were added to give a visual experience to the user for added enjoyment of the site.
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://phantom82aj.github.io/milestone-one/index.html)
+    -   Home Page Wireframe - [View](https://phantom82aj.github.io/milestone-2-Interactive-Frontend/index.html)
 
-    -   Mobile Wireframe - [View](https://phantom82aj.github.io/milestone-one/)
+    -   Mobile Wireframe - [View](https://phantom82aj.github.io/milestone-2-Interactive-Frontend/index.html)
 
-    -   Contact Us Page Wireframe - [View](https://phantom82aj.github.io/milestone-one/contact.html)
+    -   Contact Us Page Wireframe - [View](https://phantom82aj.github.io/milestone-2-Interactive-Frontend/contact.html)
 
-     -  Past Events & Gallery Page Wireframe - [View](https://phantom82aj.github.io/milestone-one/Past-Events-&-Gallery.html)
+    -  Past Events & Gallery Page Wireframe - [View](https://phantom82aj.github.io/milestone-2-Interactive-Frontend/events_gallery.html)
+
+    -  Locations Page Wireframe - [View](https://phantom82aj.github.io/milestone-2-Interactive-Frontend/locations.html)
+
+    -  Pricing Page Wireframe - [View](https://phantom82aj.github.io/milestone-2-Interactive-Frontend/pricing.html)
+
+    -  Download Flyer Page Wireframe - [View](https://phantom82aj.github.io/milestone-2-Interactive-Frontend/assets/videos/merkmediamovies.mp4)
+
 
 ## Features
 
@@ -49,12 +59,20 @@ This is a webpage for a car event promoter in the Southern California car scene.
 
 -   Interactive elements
 
+-   Email coorespondence
+
+-   Google map locations
+
 ## Technologies Used
 
 ### Languages Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+-   [Google Map API](https://en.wikipedia.org/wiki/Google_Maps#Google_Maps_API)
+-   [JQuery](https://en.wikipedia.org/wiki/JQuery)
+-   [EmailJS](https://www.emailjs.com/) 
 
 ### Frameworks, Libraries & Programs Used
 
