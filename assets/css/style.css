@@ -337,14 +337,14 @@ footer .videos-mp4 i:hover {
     clear: both;
     line-height: 0;
     column-count: 2;
-    column-gap: 0px
+    column-gap: 10px
 }
 
 #gallery-photos-2 {
     clear: both;
     line-height: 0;
     column-count: 2;
-    column-gap: 0px;
+    column-gap: 10px;
 }
 
 #gallery-photos img {
